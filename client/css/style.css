@@ -1,0 +1,101 @@
+html,body {
+    padding-top: 20px;
+    height: 100%
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+.selected-cell{
+    background-color: lightskyblue;
+    /*border: 1px solid green;*/
+}
+
+.threaten-cell {
+    background-color: lightcoral;
+}
+
+.valid-cell {
+    background-color: darkseagreen;
+}
+
+.not-valid-cell {
+    /*background-color: lightgray;*/
+}
+
+tr { height: 50px; }
+
+td {
+    text-align: center;
+}
+.button {
+    margin-right: 20px;
+}
+
+.glyphicon {
+    top: 7px;
+}
+
+/* you can also define the transition style
+on the base class as well (.repeat-item) */
+.repeat.ng-enter,
+.repeat.ng-leave {
+    -webkit-transition:0.5s linear all;
+    transition:0.5s linear all;
+}
+
+.repeat.ng-enter,
+.repeat.ng-leave.ng-leave-active {
+    opacity:0;
+}
+.repeat.ng-leave,
+.repeat.ng-enter.ng-enter-active {
+    opacity:1;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/*tr i.glyphicon-minus-sign { display: none; }*/
+/*tr:hover i.glyphicon-minus-sign { display: block; }*/
+
+.action-button {
+    margin-right: 10px;
+}
+tr button.action-button { display: none; }
+tr:hover button.action-button { display: block; }
+
+.toolbar {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.error-msg {
+    color: red;
+}
+
+.success-msg {
+    color: green;
+}
+
+.more-info {
+    vertical-align: bottom;
+    text-align: left;
+    float: left;
+}
+
+
+.footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+}
