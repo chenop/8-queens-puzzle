@@ -3,7 +3,7 @@
 
 A cool web client for solving the <a target="_blank" href="http://en.wikipedia.org/wiki/Eight_queens_puzzle">8 Queen Puzzle</a> (8x8).<br>
 
-Here is the <a target="_blank" href="https://db.tt/1paWWUq3">Demo</a>.
+Here is a <a target="_blank" href="http://chenop.github.io/8-queens-puzzle/#">Live Demo</a>.
 
 <b>Purpose:</b> provide the user a UI tool to solve the 8 Queens Puzzle.
 
